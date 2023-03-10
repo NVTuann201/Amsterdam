@@ -23,31 +23,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h">
+    <ClInclude Include="root_directory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="InputHandler.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Shader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="stb_image.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="fragment.shader">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="lightFragment.shader">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="lightVertex.shader">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="vertex.shader">
-      <Filter>Source Files</Filter>
-    </None>
   </ItemGroup>
 </Project>
