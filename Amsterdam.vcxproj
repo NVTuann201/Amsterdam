@@ -154,6 +154,14 @@
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="1.model_loading.fs" />
+    <None Include="1.model_loading.vs" />
+    <None Include="2.1.basic_lighting.fs" />
+    <None Include="2.1.basic_lighting.vs" />
+    <None Include="2.1.light_cube.fs" />
+    <None Include="2.1.light_cube.vs" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
